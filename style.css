@@ -123,10 +123,12 @@ a {
   color: #27AABF;
 }
 
-.gambar {
+.pengertian{
+  display: flex;
+}
+
+.pengertian-container {
   margin: auto;
-  width: 10%;
-  height: 10%;
   object-fit: cover;
 }
 
