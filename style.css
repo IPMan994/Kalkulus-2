@@ -166,6 +166,10 @@ a {
   font-weight: bold;
 }
 
+.img{
+  border-radius: 100%;
+}
+
 .copyright {
   width: 100%;
   background-color: #48aaba;
