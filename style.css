@@ -166,11 +166,12 @@ a {
   color: #27AABF;
   font-size: 20px;
   font-weight: bold;
+  border-radius: 100%;
 }
 
-/* .img{
-  border-radius: 100%;
-} */
+img{
+  border-radius: 20%;
+}
 
 .copyright {
   width: 100%;
