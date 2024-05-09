@@ -190,6 +190,8 @@ form .saran{
 
 .btn-primary{
   border-radius: 30%;
+  height: 20px;
+  width: 45px;
   color: #102637;
   background-color: #27AABF;
 }

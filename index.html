@@ -119,15 +119,18 @@
       <form action="saran-dan-masukan">
         <h2 class="glow">Kotak Saran</h2>
         <div class="saran">
-          <p>Masukan Nama</p>
-          <input type="name">
-          <p>Masukan E-mail</p>
-          <input type="email">
-          <p>Masukan Saran</p>
-          <input type="saran">
-          <button class="btn-primary">Kirim</button>
+          <label for="name">Masukan Nama Anda</label>
+          <input type="text" id="name" name="name" placeholder="">
+          
+          <label for="email">Masukan E-mail Anda</label>
+          <input type="text" id="email" name="email" placeholder="">
+          
+          <label for="subject">Kotak saran</label>
+          <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+          
+          <input class="btn-primary" type="submit" value="Submit">
         </div>
-        </form>
+      </form>
     </div>
   </section>
   <!-- end Contact Us section -->
