@@ -173,13 +173,15 @@ img{
   border-radius: 20%;
 }
 
-/* .contact-us{
+.contact-us{
+  color: white;
+  font-size: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 20px 0px;
-} */
+}
 
 .copyright {
   width: 100%;
