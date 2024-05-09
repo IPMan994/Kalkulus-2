@@ -183,6 +183,17 @@ img{
   padding: 20px 0px;
 }
 
+form .saran{
+  color: #27AABF;
+  font-size: 20px;
+}
+
+.btn-primary{
+  border-radius: 30%;
+  color: #102637;
+  background-color: #27AABF;
+}
+
 .copyright {
   width: 100%;
   background-color: #48aaba;
