@@ -119,7 +119,7 @@ a {
   cursor: pointer;
 }
 
-.Materi{
+.pengertian{
   background-color: #102637;
   color: #27AABF;
 }
@@ -173,7 +173,7 @@ img{
   border-radius: 20%;
 }
 
-.contact-us{
+.kotak-saran{
   color: white;
   font-size: 25px;
   display: flex;
