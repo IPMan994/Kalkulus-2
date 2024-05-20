@@ -5,32 +5,32 @@ var score = 0;
 var PERHITUNGANquestions = [
   {
     question: "Hitunglah Soal Berikut!",
-    Image: "/assets/pg1.png",
+    Image: "assets/pg1.png",
     choices: ["14/3", "2/3", "14/23", "31/4"],
     answer: 1,
   },
 
   {
     question: "Hitunglah Soal Berikut! ",
-    Image: "/assets/pg2.png",
+    Image: "assets/pg2.png",
     choices: ["ln 25/23", "ln 25/24", "ln 25/22", "ln 25/21"],
     answer: 2,
   },
   {
     question: "Hitunglah Soal Berikut! ",
-    Image: "/assets/pg3.png",
+    Image: "assets/pg3.png",
     choices: ["1", "0", "1/2", "2/3"],
     answer: 3,
   },
   {
     question: "Hitunglah Soal Berikut! ",
-    Image: "/assets/pg4.png",
+    Image: "assets/pg4.png",
     choices: ["196/9", "89/6", "96/6", "69/6"],
     answer: 2,
   },
   {
     question: "Hitunglah Soal Berikut! ",
-    Image: "/assets/pg5.png",
+    Image: "assets/pg5.png",
     choices: ["4/3", "1/3", "1/12", "2/3"],
     answer: 1,
   },
@@ -42,13 +42,13 @@ var PERHITUNGANquestions = [
   },
   {
     question: "Hitunglah Soal Berikut! ",
-    Image: "/assets/pg7.png",
+    Image: "assets/pg7.png",
     choices: ["20/3", "0", "22/3", "2/3"],
     answer: 1,
   },
   {
     question: "Hitunglah Soal Berikut! ",
-    Image: "/assets/pg8.png",
+    Image: "assets/pg8.png",
     choices: [
       "6 Satuan Luas",
       "10 Satuan Luas",
@@ -60,13 +60,13 @@ var PERHITUNGANquestions = [
 
   {
     question: "Hitunglah Soal Berikut! ",
-    Image: "/assets/pg9.png",
+    Image: "assets/pg9.png",
     choices: ["721/3", "609/4", "545/5", "214/3"],
     answer: 2,
   },
   {
     question: "Hitunglah Soal Berikut! ",
-    Image: "/assets/pg10.png",
+    Image: "assets/pg10.png",
     choices: ["10", "12", "41", "54"],
     answer: 1,
   },
@@ -76,19 +76,19 @@ var PEMAHAMANquestions = [
   {
     question:
       "Dalam integral lipat dua, elemen diferensialnya sering kali dinyatakan sebagai?",
-    Image: "/assets/putih.png",
+    Image: "assets/putih.png",
     choices: ["dxdy", "dA", "drdθ", "dV"],
     answer: 4,
   },
   {
     question: "Integral lipat dua digunakan untuk menghitung?",
-    Image: "/assets/putih.png",
+    Image: "assets/putih.png",
     choices: ["Volume", "Luas permukaan", "Massa", "Panjang lengkung"],
     answer: 1,
   },
   {
     question: "Dalam integral lipat dua, iterasi integral dimulai dari?",
-    Image: "/assets/putih.png",
+    Image: "assets/putih.png",
     choices: [
       "Dalam ke luar",
       "Kiri ke kanan",
@@ -101,7 +101,7 @@ var PEMAHAMANquestions = [
     /*4*/
     question:
       "Dalam integral lipat dua, teorema Green adalah pernyataan tentang hubungan antara integral dari dua jenis operasi?",
-    Image: "/assets/putih.png",
+    Image: "assets/putih.png",
     choices: [
       "Integral dan derivatif",
       "Integral dan diferensial",
@@ -113,7 +113,7 @@ var PEMAHAMANquestions = [
   {
     question:
       "Dalam integral lipat dua, daerah integrasi direpresentasikan oleh?",
-    Image: "/assets/putih.png",
+    Image: "assets/putih.png",
     choices: [
       "Kurva parametrik",
       "Persamaan diferensial",
@@ -126,13 +126,13 @@ var PEMAHAMANquestions = [
     /*6*/
     question:
       "Dalam integral lipat dua, batas integrasi dapat dinyatakan dalam bentuk?",
-    Image: "/assets/putih.png",
+    Image: "assets/putih.png",
     choices: ["Garis", "Kurva", "Daerah", "Titik"],
     answer: 3,
   },
   {
     question: "Dalam integral lipat dua, notasi R biasanya merepresentasikan?",
-    Image: "/assets/putih.png",
+    Image: "assets/putih.png",
     choices: [
       "Rentang integral",
       "Fungsi yang diintegralkan",
@@ -145,7 +145,7 @@ var PEMAHAMANquestions = [
     /*8*/
     question:
       "Apa yang dimaksud dengan teorema Green dalam konteks integral lipat dua?",
-    Image: "/assets/putih.png",
+    Image: "assets/putih.png",
     choices: [
       "Teorema yang menghubungkan integral dari sebuah fungsi dengan turunan dari fungsi tersebut",
       "Teorema yang menghubungkan integral ganda dengan integral tunggal",
@@ -157,7 +157,7 @@ var PEMAHAMANquestions = [
   {
     question:
       "Dalam integral lipat dua, apa yang dimaksud dengan daerah integrasi?",
-    Image: "/assets/putih.png",
+    Image: "assets/putih.png",
     choices: [
       "Daerah dimana fungsi yang diintegralkan tidak terdefinisi",
       "Daerah dimana fungsi yang diintegralkan bernilai negatif",
@@ -169,7 +169,7 @@ var PEMAHAMANquestions = [
   {
     question:
       "Mengapa penting untuk memahami integral lipat dua dalam konteks aplikasi ilmu pengetahuan dan teknik?",
-    Image: "/assets/putih.png",
+    Image: "assets/putih.png",
     choices: [
       "Karena integral lipat dua hanya digunakan dalam matematika murni",
       "Karena integral lipat dua dapat digunakan untuk menghitung berbagai properti fisik seperti massa, pusat massa, dan momentum",
