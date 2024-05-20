@@ -10,7 +10,7 @@
   /*    background-color: aqua;*/
   padding: 30px;
   top: 50%;
-  position: absolute;
+  position: relative;
   left: 10%;
   width: 30%;
 }
