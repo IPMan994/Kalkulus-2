@@ -113,6 +113,7 @@ a {
   font-size: 18px;
   font-weight: bold;
   color: #102637;
+  /* touch-action: cross-slide-y; */
 }
 
 .button-mulai:hover {
