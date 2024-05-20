@@ -21,10 +21,10 @@
       <img class="icon" src="assets/nobgIcon.png" alt=""></a>
       
       <div class="nav-list">
-        <div class="list-item"><a href="">Home</a></div>
-        <div class="list-item"><a href="">Materi</a></div>
-        <div class="list-item"><a href="">Our Team</a></div>
-        <div class="list-item"><a href="">Contact Us</a></div>
+        <div class="list-item"><a href="#Home">Home</a></div>
+        <div class="list-item"><a href="#Materi">Materi</a></div>
+        <div class="list-item"><a href="#Our-Team">Our Team</a></div>
+        <div class="list-item"><a href="#Contact-us">Contact Us</a></div>
       </div>
     </div>
   </div>
@@ -32,7 +32,7 @@
   
   <!-- Home section -->
   <!-- <section class="Home">    -->
-    <div class="container">
+    <div id="Home" class="container">
       <div class="content">
         <div class="first-side">
         <div class="firstSide-container">
@@ -45,7 +45,9 @@
             <div class="glow">LIPAT 2</div>
             <div style="font-size: 24px; color: #48aaba; font-weight: bold;">KELOMPOK 5 INFORMATIKA 2023</div>
           </div>
-          <button class="button-mulai">Mulai Quiz</button>
+          <a href="#Quiz">
+            <button class="button-mulai">Mulai Quiz</button>
+          </a>
         </div>
       </div>
       <div class="second-side">
@@ -60,7 +62,7 @@
 
   <!-- Materi section -->
   <!-- <section class="Materi"> -->
-    <div class="pengertian">
+    <div id="Materi" class="pengertian">
       <div class="gambar">
         <img src="/assets/reshot-icon-integral-FRNYMEZ7V9.svg" width="500" height="500">
       </div>
@@ -79,8 +81,8 @@
   <!-- end Materi section -->
 
   <!-- Our Team section -->
-  <section class="Our-Team">
-    <div class="text">
+  <!-- <section class="Our-Team"> -->
+    <div id="Our-Team" class="text">
       <h2 class="glow">Our Team</h2>
     </div>
     <div class="Team-container">
@@ -117,14 +119,15 @@
         <a href="https://www.instagram.com/irham_ipm_994/" target="_blank"><img src="/assets/instagram.svg" width="50" height="50"></a>
       </div>
     </div>
-  </section>
+  <!-- </section> -->
   <!-- end Our Team section -->
 
-  <section class="Quiz">
-    <div id="wrapper">
-      <div id="form-box">
-        <form>
-          <select id="language">
+  <!-- <section class="Quiz"> -->
+    <div id="Quiz">
+      <div id="wrapper">
+        <div id="form-box">
+          <form>
+            <select id="language">
             <option value="PERHITUNGAN" selected="selected">
               Perhitungan Integral Lipat Dua
             </option>
@@ -167,20 +170,20 @@
             value="option3"
             checked="checked"
             id="opt2"
-          /><label for="opt2" id="lb2">Option3</label>
-        </div>
+            /><label for="opt2" id="lb2">Option3</label>
+          </div>
         <div class="options">
           <input type="radio" name="options" value="option4" id="opt3" /><label
-            for="opt3"
-            id="lb3"
-            >Option4</label
+          for="opt3"
+          id="lb3"
+          >Option4</label
           >
         </div>
       </div>
       <div class="ans-btn">
         <button type="button" class="submit-answer">Kirim Jawaban</button>
         <a href="#display-final-score" type="button" class="view-results"
-          >Hasil Nilai Quiz</a
+        >Hasil Nilai Quiz</a
         >
       </div>
     </div>
@@ -192,11 +195,12 @@
       <div class="remark">Yuk! Belajar Lebih Giat Lagi</div>
       <button id="restart">Kembali</button>
     </div>
-  </section>
+  </div>
+    <!-- </section> -->
 
   <!-- Contact Us section -->
   <!-- <section class="contact-us"> -->
-    <div class="kotak-saran">
+    <div id="Contact-us" class="kotak-saran">
       <form action="saran-dan-masukan">
         <h2 class="glow">Kotak Saran</h2>
         <div class="saran">
